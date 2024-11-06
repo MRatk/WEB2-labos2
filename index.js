@@ -28,6 +28,9 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'scripts')));
 
+app.use(express.static(path.join(__dirname, 'scripts')));
+app.use('/style', express.static(path.join(__dirname, 'style')));
+
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'home.html'));
 });

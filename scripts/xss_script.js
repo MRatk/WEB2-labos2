@@ -13,12 +13,14 @@ function sanitizeText(x) {
 
 if(text){
     if(!urlPar.has('sanitize')){
-        document.getElementById('xss_comm').textContent = text;
+        //document.getElementById('xss_comm').innerText = text;
         document.write(text);
     }else{
         text = sanitizeText(text);
         document.getElementById('xss_comm').textContent = text;
     }
+}
 
-
+function home_redirect(){
+    window.location.href = 'home.html';
 }
