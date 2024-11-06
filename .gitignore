@@ -1,0 +1,9 @@
+# Environment variables
+.env
+PORT=3000
+AUTH0_DOMAIN=dev-1toh3papmv4d6yrs.us.auth0.com
+CLIENT_ID=rGykpeyFcVB6a98LjFLn9r4gJtAKIqpM
+CLIENT_SECRET=_UbUnKSuY4a_LgTG9EKF2-VDVVKJTFHEvGqoZ5__z_W0CqaOA1OZlS3vcLop1tky
+SECRET=65e6ef30508383ad8ddd8061aa88e58b02a30b3dc2c8208b9c0a2200e8d67adb
+
+
